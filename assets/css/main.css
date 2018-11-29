@@ -1,0 +1,13 @@
+.pc1 {
+    background-color: aquamarine;
+}
+
+.pc2 {
+    background-color: red;
+}
+
+@media only screen and (max-width: 768px) {
+    .navCol{
+        max-width: 25%;
+    }
+}
