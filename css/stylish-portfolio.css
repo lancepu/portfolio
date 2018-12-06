@@ -11,10 +11,12 @@ Deep Matte Grey: #393f4d
 Dark Slate: #1d1e22 */
 
 .text-primary {
+  text-shadow: 0.2rem 0.2rem #1d1e22;
   color: #feda6a !important;
 }
 
 .text-secondary {
+  font-size: 1rem;
   color: #feda6a !important;
 }
 
@@ -267,13 +269,13 @@ h6 {
       from(rgba(255, 255, 255, 0.1)),
       to(rgba(255, 255, 255, 0.1))
     ),
-    url("../img/bg-main.jpg");
+    url("../img/bg-main2.jpg");
   background: linear-gradient(
       90deg,
       rgba(255, 255, 255, 0.1) 0%,
       rgba(255, 255, 255, 0.1) 100%
     ),
-    url("../img/bg-main.jpg");
+    url("../img/bg-main2.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
