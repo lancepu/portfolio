@@ -101,12 +101,13 @@ h6 {
 
 .scroll-to-top:focus,
 .scroll-to-top:hover {
-  color: #1d1e22;
+  color: #feda6a;
+  background: #393f4d;
 }
 
-.scroll-to-top:hover {
+/* .scroll-to-top:hover {
   background: #feda6a;
-}
+} */
 
 .scroll-to-top i {
   font-weight: 800;
