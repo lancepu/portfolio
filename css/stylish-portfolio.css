@@ -4,6 +4,32 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio/blob/master/LICENSE)
  */
 
+/* color scheme (dark horse)
+Are ya yellow?!: #feda6a
+Silver Fox: #d4d4dc
+Deep Matte Grey: #393f4d
+Dark Slate: #1d1e22 */
+
+.text-primary {
+  color: #feda6a !important;
+}
+
+.text-secondary {
+  color: #feda6a !important;
+}
+
+.text-dark {
+  color: #1d1e22 !important;
+}
+
+.text-silver {
+  color: #d4d4dc !important;
+}
+
+.text-yellow {
+  color: #feda6a !important;
+}
+
 body,
 html {
   width: 100%;
@@ -11,7 +37,7 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro';
+  font-family: "Source Sans Pro";
 }
 
 .btn-xl {
@@ -42,7 +68,7 @@ h6 {
 }
 
 .text-faded {
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(212, 212, 220, 0.7);
 }
 
 /* Map */
@@ -68,17 +94,18 @@ h6 {
   width: 50px;
   height: 50px;
   text-align: center;
-  color: white;
-  background: rgba(52, 58, 64, 0.5);
+  color: #1d1e22;
+  background: rgba(254, 218, 106, 0.5);
   line-height: 45px;
 }
 
-.scroll-to-top:focus, .scroll-to-top:hover {
-  color: white;
+.scroll-to-top:focus,
+.scroll-to-top:hover {
+  color: #1d1e22;
 }
 
 .scroll-to-top:hover {
-  background: #343a40;
+  background: #feda6a;
 }
 
 .scroll-to-top i {
@@ -93,8 +120,20 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-masthead.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(255, 255, 255, 0.1)),
+      to(rgba(255, 255, 255, 0.1))
+    ),
+    url("../img/bg-masthead.jpg");
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    url("../img/bg-masthead.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -126,7 +165,7 @@ h6 {
   transition: all 0.4s ease 0s;
   -webkit-transform: translateX(250px);
   transform: translateX(250px);
-  background: #1D809F;
+  background: #feda6a;
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -142,14 +181,14 @@ h6 {
 .sidebar-nav li.sidebar-nav-item a {
   display: block;
   text-decoration: none;
-  color: #fff;
+  color: #1d1e22;
   padding: 15px;
 }
 
 .sidebar-nav li a:hover {
   text-decoration: none;
-  color: #fff;
-  background: rgba(255, 255, 255, 0.2);
+  color: #feda6a;
+  background: rgba(29, 30, 34, 0.9);
 }
 
 .sidebar-nav li a:active,
@@ -159,8 +198,8 @@ h6 {
 
 .sidebar-nav > .sidebar-brand {
   font-size: 1.2rem;
-  background: rgba(52, 58, 64, 0.1);
-  height: 80px;
+  background: rgba(254, 218, 106, 0.1);
+  height: 120px;
   line-height: 50px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -168,11 +207,11 @@ h6 {
 }
 
 .sidebar-nav > .sidebar-brand a {
-  color: #fff;
+  color: #1d1e22;
 }
 
 .sidebar-nav > .sidebar-brand a:hover {
-  color: #fff;
+  color: #1d1e22;
   background: none;
 }
 
@@ -190,36 +229,50 @@ h6 {
   width: 50px;
   height: 50px;
   text-align: center;
-  color: #fff;
-  background: rgba(52, 58, 64, 0.5);
+  color: #1d1e22;
+  background: rgba(254, 218, 106, 0.5);
   line-height: 50px;
   z-index: 999;
 }
-
-.menu-toggle:focus, .menu-toggle:hover {
-  color: #fff;
+.menu-toggle:hover,
+.menu-toggle:focus {
+  color: #feda6a;
+  background: #393f4d;
 }
 
-.menu-toggle:hover {
-  background: #343a40;
-}
+/* .menu-toggle:hover {
+  color: #1d1e22;
+  background: #feda6a;
+} */
 
 .service-icon {
-  background-color: #fff;
-  color: #1D809F;
+  background-color: #feda6a;
+  color: #1d1e22;
   height: 5rem;
   width: 5rem;
   display: block;
   line-height: 5.5rem;
   font-size: 2.25rem;
-  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  /* -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); */
 }
 
 .callout {
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("../img/bg-callout.jpg");
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-callout.jpg");
+  background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(rgba(255, 255, 255, 0.1)),
+      to(rgba(255, 255, 255, 0.1))
+    ),
+    url("../img/bg-main.jpg");
+  background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    url("../img/bg-main.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -246,7 +299,7 @@ h6 {
   display: flex;
   height: 100%;
   width: 100%;
-  background-color: rgba(33, 37, 41, 0.2);
+  background-color: rgba(57, 63, 77, 0.2);
   position: absolute;
   top: 0;
   bottom: 0;
@@ -254,17 +307,17 @@ h6 {
 }
 
 .portfolio-item .caption .caption-content {
-  color: #fff;
+  color: #feda6a;
   margin: auto 2rem 2rem;
 }
 
 .portfolio-item .caption .caption-content h2 {
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 
 .portfolio-item .caption .caption-content p {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1.2rem;
 }
 
@@ -295,7 +348,8 @@ h6 {
     clip-path: inset(2rem);
   }
   .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    color: #1d1e22 !important;
+    background-color: rgba(254, 218, 106, 0.9);
     -webkit-clip-path: inset(2rem);
     clip-path: inset(2rem);
   }
@@ -304,6 +358,7 @@ h6 {
 footer.footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
+  background-color: #1d1e22;
 }
 
 footer.footer .social-link {
@@ -312,68 +367,65 @@ footer.footer .social-link {
   width: 4rem;
   line-height: 4.3rem;
   font-size: 1.5rem;
-  background-color: #1D809F;
+  background-color: #feda6a;
   -webkit-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
-  -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  /* -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); */
 }
 
 footer.footer .social-link:hover {
-  background-color: #155d74;
+  background-color: #393f4d;
+  color: #feda6a !important;
   text-decoration: none;
 }
 
-a {
-  color: #1D809F;
+/* a {
+  color: #feda6a;
 }
 
-a:hover, a:focus, a:active {
-  color: #155d74;
-}
+a:hover,
+a:focus,
+a:active {
+  color: #feda6a;
+} */
 
 .btn-primary {
-  background-color: #1D809F !important;
-  border-color: #1D809F !important;
-  color: #fff !important;
+  background-color: #feda6a !important;
+  border-color: #feda6a !important;
+  color: #1d1e22 !important;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #155d74 !important;
-  border-color: #155d74 !important;
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #393f4d !important;
+  border-color: #393f4d !important;
+  color: #feda6a !important;
 }
 
 .btn-secondary {
-  background-color: #ecb807 !important;
-  border-color: #ecb807 !important;
-  color: #fff !important;
+  background-color: #feda6a !important;
+  border-color: #feda6a !important;
+  color: #1d1e22 !important;
 }
 
-.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active {
-  background-color: #ba9106 !important;
-  border-color: #ba9106 !important;
-}
-
-.btn-dark {
-  color: #fff !important;
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active {
+  background-color: #393f4d !important;
+  border-color: #393f4d !important;
+  color: #feda6a !important;
 }
 
 .btn {
-  -webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1);
+  /* -webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1); */
   font-weight: 700;
 }
 
 .bg-primary {
-  background-color: #1D809F !important;
-}
-
-.text-primary {
-  color: #1D809F !important;
-}
-
-.text-secondary {
-  color: #ecb807 !important;
+  background-color: #1d1e22 !important;
 }
 
 /* .techIcon{
