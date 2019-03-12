@@ -20,8 +20,12 @@ Dark Slate: #1d1e22 */
   color: #feda6a !important;
 }
 
-.text-dark {
+.text-dark-shadow {
   text-shadow: 0.1rem 0.1rem #feda6a;
+  color: #1d1e22 !important;
+}
+
+.text-dark {
   color: #1d1e22 !important;
 }
 
