@@ -21,6 +21,7 @@ Dark Slate: #1d1e22 */
 }
 
 .text-dark {
+  text-shadow: 0.1rem 0.1rem #feda6a;
   color: #1d1e22 !important;
 }
 
@@ -29,6 +30,7 @@ Dark Slate: #1d1e22 */
 }
 
 .text-yellow {
+  text-shadow: 0.1rem 0.1rem #1d1e22;
   color: #feda6a !important;
 }
 
@@ -243,11 +245,6 @@ h6 {
   background: #393f4d;
 }
 
-/* .menu-toggle:hover {
-  color: #1d1e22;
-  background: #feda6a;
-} */
-
 .service-icon {
   background-color: #feda6a;
   color: #1d1e22;
@@ -256,8 +253,6 @@ h6 {
   display: block;
   line-height: 5.5rem;
   font-size: 2.25rem;
-  /* -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); */
 }
 
 .callout {
@@ -293,7 +288,7 @@ h6 {
   position: relative;
   overflow: hidden;
   max-width: 530px;
-  margin: auto auto 1rem;
+  margin: 1rem;
 }
 
 .portfolio-item .caption {
@@ -347,14 +342,14 @@ h6 {
     clip-path: inset(-1px);
   }
   .portfolio-item:hover img {
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
   }
   .portfolio-item:hover .caption {
     color: #1d1e22 !important;
-    background-color: rgba(254, 218, 106, 0.9);
-    -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    /* background-color: rgba(254, 218, 106, 0.9); */
+    -webkit-clip-path: inset(1rem);
+    clip-path: inset(1rem);
   }
 }
 
@@ -373,8 +368,6 @@ footer.footer .social-link {
   background-color: #feda6a;
   -webkit-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
-  /* -webkit-box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
-  box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1); */
 }
 
 footer.footer .social-link:hover {
@@ -382,16 +375,6 @@ footer.footer .social-link:hover {
   color: #feda6a !important;
   text-decoration: none;
 }
-
-/* a {
-  color: #feda6a;
-}
-
-a:hover,
-a:focus,
-a:active {
-  color: #feda6a;
-} */
 
 .btn-primary {
   background-color: #feda6a !important;
@@ -422,32 +405,9 @@ a:active {
 }
 
 .btn {
-  /* -webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1); */
-  /* box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.1); */
   font-weight: 700;
 }
 
 .bg-primary {
   background-color: #1d1e22 !important;
 }
-
-/* .techIcon{
-  font-size: 4rem;
-  margin: 0.5rem;
-}
-
-.fa-node-js{
-  color: green;
-}
-
-.fa-js{
-  color: yellowgreen;
-}
-
-.fa-css3{
-  color: blue;
-}
-
-.fa-html5{
-  color: red;
-} */
